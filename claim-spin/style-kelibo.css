@@ -1,0 +1,795 @@
+body {
+  margin: 0px;
+  background: #aaadd4;
+  color: #0d0014;
+  font-family: arial;
+}
+
+.conatinerkelibomoba {
+  background: url(https://rawcdn.githack.com/KeliboStore/MLBB/1f778569dceef9af119a684e963b9c05da210f3b/claim-spin/bg-4fed3b35.png) no-repeat center;
+  background-size: cover;
+}
+
+.headerkelibomoba {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0px;
+}
+
+.kiriheadmoba {
+  margin-left: 15px;
+}
+
+.kiriheadmoba img {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  filter: drop-shadow(2px 4px 6px black);
+}
+
+.kananheadmoba {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.toastmobkelibo {
+  background: url(https://rawcdn.githack.com/KeliboStore/MLBB/1f778569dceef9af119a684e963b9c05da210f3b/claim-spin/nick.png) no-repeat center;
+  background-size: 100% 100%;
+  height: 25px;
+  padding: 0px 20;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  font-weight: 400;
+  margin-right: 15px;
+}
+
+.toastmobkelibo p {
+  margin-block: 0px;
+  font-size: 15px;
+}
+
+.rulesmobakelibo {
+  background: url(https://rawcdn.githack.com/KeliboStore/MLBB/1f778569dceef9af119a684e963b9c05da210f3b/claim-spin/rules-tab.png) no-repeat center;
+  background-size: 100% 100%;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  font-weight: 600;
+}
+
+.rulesmobakelibo p {
+  margin-block: 0px;
+  margin: 15% auto;
+}
+
+.bannerkelibomoba {
+  padding: 2.5em 10px 10px;
+}
+
+.sliderkelibobanner {
+  border: 2px solid #c847e2;
+  border-radius: 10px;
+  background: url(https://m.mobilelegends.com/static/images/preload.jpg) no-repeat center;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 184px;
+}
+
+.sliderkelibobanner img {
+  width: 100%;
+  border-radius: 10px;
+  display: none;
+}
+
+.menukelibomoba {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.itemmenukelibomoba {
+  width: 30%;
+  background: url(https://rawcdn.githack.com/KeliboStore/MLBB/1f778569dceef9af119a684e963b9c05da210f3b/claim-spin/menu.png) no-repeat center;
+  background-size: 100% 100%;
+  text-align: center;
+  font-size: 13px;
+  letter-spacing: .4px;
+  filter: grayscale(1);
+}
+
+.itemmenukelibomoba p {
+  margin-block: 0px;
+  line-height: 35px;
+  color: #cbfbfd;
+}
+
+.keliboactive {
+  filter: unset;
+}
+
+.isimobakelibo {
+  padding: 1.5em 10px 4em;
+}
+
+.menuboxmobakelibo {
+  display: flex;
+  justify-content: space-between;
+  background: #2d3a6c;
+  color: #aaadd4;
+  font-size: 13px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.itemkelibomenu {
+  text-align: center;
+  width: 50%;
+  line-height: 28px;
+  color: #cbfbfd;
+}
+
+.itemkelibomenu p {
+  margin-block: 0px;
+  line-height: 30px;
+}
+
+.kirikeliboaktif {
+  background: url(https://rawcdn.githack.com/KeliboStore/MLBB/36b6a2e07c3a0989fc7131d5cf41af60a1741631/claim-spin/kiri-aktif-kelibo.png) no-repeat center;
+  background-size: 100% 100%;
+  color: #0d0014;
+}
+
+.kanankeliboaktif {
+  background: url(https://rawcdn.githack.com/KeliboStore/MLBB/36b6a2e07c3a0989fc7131d5cf41af60a1741631/claim-spin/kanan-aktif-kelibo.png) no-repeat center;
+  background-size: 100% 100%;
+  color: #0d0014;
+}
+
+.boxitemkelibomoba {
+  background: url(https://rawcdn.githack.com/KeliboStore/MLBB/36b6a2e07c3a0989fc7131d5cf41af60a1741631/claim-spin/card-Box-Bg-f3fcd521.png) no-repeat center;
+  background-size: 100% 100%;
+  padding: 10px 10px 20px;
+  height: 370px;
+}
+
+.contkeliboitem {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  max-height: 385px;
+  height: 100%;
+  overflow-x: overlay;
+}
+
+.itemkelibomoba {
+  background: url(https://rawcdn.githack.com/KeliboStore/MLBB/36b6a2e07c3a0989fc7131d5cf41af60a1741631/claim-spin/card-Bg-333369c7.png) no-repeat center;
+  background-size: 100% 100%;
+  width: 90px;
+  height: 185px;
+  display: inline-grid;
+  justify-items: center;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.imgitemkelibomoba {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.imgitemkelibomoba img {
+  width: 100%;
+  border-radius: 5px;
+  max-height: 135px;
+  width: 100%
+}
+
+.itemkelibomoba button {
+  width: 100%;
+  background: url(https://rawcdn.githack.com/KeliboStore/MLBB/36b6a2e07c3a0989fc7131d5cf41af60a1741631/claim-spin/btn-active-kelibo.png) no-repeat center;
+  background-size: 100% 100%;
+  border: none;
+  text-align: center;
+  line-height: 23px;
+  color: #0d0014;
+  outline: none;
+  font-size: 12px;
+  border-radius: 25px;
+}
+
+.ucapankelibospin {
+  text-align: center;
+}
+
+.ucapankelibospin p {
+  font-size: 14px;
+}
+
+.boxspinkelibomoba {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.itemspinkelibomoba {
+  background: url(https://rawcdn.githack.com/KeliboStore/MLBB/36b6a2e07c3a0989fc7131d5cf41af60a1741631/claim-spin/quan.3393c6c5.png) no-repeat center;
+  background-size: 100% 100%;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.darkWheel {
+  filter: brightness(0.5);
+}
+
+.ledWheel {
+  filter: drop-shadow(2px 4px 6px #681794);
+  ;
+}
+
+.imgkelibospinmoba {}
+
+.imgkelibospinmoba img {
+  width: 60px;
+  height: 60px;
+  margin: 8% auto;
+}
+
+.buttonspinkelibomoba {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.buttonspinkelibomoba button {
+  background: url(https://rawcdn.githack.com/KeliboStore/MLBB/36b6a2e07c3a0989fc7131d5cf41af60a1741631/claim-spin/spin-kelibo.png) no-repeat center;
+  background-size: 100% 100%;
+  color: #0d0014;
+  line-height: 33px;
+  padding: 0px 25px;
+  text-align: center;
+  border: none;
+  filter: drop-shadow(2px 4px 6px #0d0014);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.popkeliborulesmoba {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background: #000000ab;
+}
+
+.boxmobapoprules {
+  background: url(https://rawcdn.githack.com/KeliboStore/MLBB/36b6a2e07c3a0989fc7131d5cf41af60a1741631/claim-spin/rule-Bg-3ab590a2.png) no-repeat center;
+  background-size: 100% 100%;
+  max-width: 411px;
+  width: 80%;
+  margin: 34% auto;
+}
+
+.closepopruleskelibo {
+  text-align: right;
+}
+
+.closepopruleskelibo img {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  right: 4%;
+  top: 15%;
+}
+
+.boxmobaruleskelibo {
+  padding: 0px 0px 20px;
+}
+
+.ucapanpopkeliborules {
+  text-align: center;
+  color: #480e98;
+  letter-spacing: .4px;
+}
+
+.ucapanpopkeliborules h3 {
+  padding: 1.2em 0px 0px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.stepruleskelibo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  padding: 10px 20px;
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.stepruleskelibo span {
+  margin-bottom: 10px;
+}
+
+.trueidkelibomoba {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background: #000000c2;
+}
+
+.boxtrueidkelibo {
+  background: url(https://rawcdn.githack.com/KeliboStore/MLBB/36b6a2e07c3a0989fc7131d5cf41af60a1741631/claim-spin/trueid-kelibo.png) no-repeat center;
+  background-size: 100% 100%;
+  padding: 30px 20px;
+  width: 80%;
+  margin: 66% auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+.ucapanboxidkelibo p {
+  margin-block: 0px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  text-shadow: 0px 2px 7px #af35ff;
+}
+
+.inputidkelibo {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 0px 10px;
+}
+
+.inputidkelibo input {
+  width: 100%;
+  background: url(https://rawcdn.githack.com/KeliboStore/MLBB/36b6a2e07c3a0989fc7131d5cf41af60a1741631/claim-spin/trueid-kelibo.png) no-repeat center;
+  background-size: 100% 100%;
+  line-height: 42px;
+  color: #fff;
+  font-size: 18px;
+  padding: 0px 10px;
+  border: none;
+  outline: none;
+  box-shadow: 0px 0px 4px 0px #fff;
+}
+
+.zoneid {
+  margin-left: 10px !important;
+  width: 65% !important;
+}
+
+.inputidkelibo input::-webkit-input-placeholder {
+  /* Edge */
+  color: #bdbdbd;
+}
+
+.inputidkelibo input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #bdbdbd;
+}
+
+.inputidkelibo input::placeholder {
+  color: #bdbdbd;
+}
+
+.alertkeliboid {
+  width: 100%;
+  margin-bottom: 10px;
+  height: 20px;
+}
+
+.warn {
+  display: none;
+}
+
+.buttonidkelibo {
+  text-align: center;
+}
+
+.buttonidkelibo button {
+  background: url(https://rawcdn.githack.com/KeliboStore/MLBB/36b6a2e07c3a0989fc7131d5cf41af60a1741631/claim-spin/btn-active-kelibo.png) no-repeat center;
+  background-size: 100% 100%;
+  line-height: 30px;
+  font-size: 17px;
+  color: #0d0014;
+  border: none;
+  padding: 0px 35px;
+  font-weight: 500;
+  border-radius: 50px;
+    outline: none;
+}
+
+.kelibo-login {
+  background: #000000c4;
+  z-index: 999999;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  vertical-align: middle;
+  text-align: center;
+  top: 0;
+  left: 0;
+}
+
+.pilihan-login {
+  background: rgba(18, 39, 70, .94);
+  position: relative;
+  display: inline-block;
+  width: 90vw;
+  max-width: 675px;
+  min-height: 80px;
+  border: 1px solid #4c87d4;
+  font-size: 12px;
+  color: #98e8ff;
+  margin: 44% auto;
+  border-radius: 5px;
+}
+
+.close-kelibolog {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 15px;
+  right: 15px;
+  background: url(https://rawcdn.githack.com/KeliboStore/MLBB/36b6a2e07c3a0989fc7131d5cf41af60a1741631/claim-spin/close-kelibo.png) no-repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+.ucapan-login {
+  text-align: center;
+  font-size: 22px;
+  padding: 40px 0 30px;
+  font-family: Arial;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.btnlogkelibo {
+  position: relative;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 77%;
+  height: 50px;
+  line-height: 20px;
+  background: url(https://rawcdn.githack.com/KeliboStore/MLBB/36b6a2e07c3a0989fc7131d5cf41af60a1741631/btn-ml-log.png) no-repeat;
+  background-size: 100% 100%;
+  margin: 0 auto 15px;
+  padding-left: 15px;
+  color: #fff;
+  font-size: 18px;
+  text-align: left;
+  border: none;
+}
+
+.rewardkelibospin {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  background: #000000ab;
+}
+
+.boxrewardspinkelibo {
+  background: url(https://rawcdn.githack.com/KeliboStore/MLBB/36b6a2e07c3a0989fc7131d5cf41af60a1741631/claim-spin/card-Box-Bg-f3fcd521.png) no-repeat center;
+  background-size: 100% 100%;
+  width: 80%;
+  margin: 56% auto;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.ucapanspinkeliboreward p {
+  color: #af35ff;
+  font-size: 25px;
+  font-weight: 600;
+  margin-block: 0px;
+  text-shadow: 1px 2px 1px #a53dee;
+}
+
+.boxgambarkelibo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.boxgambarkelibo img {
+  width: 80px;
+}
+
+.boxgambarkelibo span {
+  margin-top: 5px;
+}
+
+.buttonrewardspinkelibo {
+  padding-top: 20px;
+}
+
+.buttonrewardspinkelibo button {
+  background: url(https://rawcdn.githack.com/KeliboStore/MLBB/36b6a2e07c3a0989fc7131d5cf41af60a1741631/claim-spin/btn-active-kelibo.png) no-repeat center;
+  background-size: 100% 100%;
+  line-height: 30px;
+  font-size: 17px;
+  color: #0d0014;
+  border: none;
+  padding: 0px 35px;
+  font-weight: 500;
+  border-radius: 25px;
+}
+
+.kelibohostslide {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 20px;
+  bottom: 20px;
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.dot {
+  background: transparent;
+  width: 45px;
+  height: 8px;
+  border: 1px solid #c1c6fc;
+  background-size: 100%;
+  position: relative;
+  margin: 0px 5px;
+  border-radius: 10px;
+}
+
+.active {
+  background: #9e3fbe;
+}
+
+.verificationkelibomoba {
+  background: url(https://rawcdn.githack.com/KeliboStore/MLBB/36b6a2e07c3a0989fc7131d5cf41af60a1741631/claim-spin/card-Box-Bg-f3fcd521.png) no-repeat center;
+  background-size: 100% 100%;
+}
+
+.keliboformmoba {
+  padding: 15px;
+}
+
+.itemformkelibomoba {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  margin-bottom: 15px;
+}
+
+.doubleformkelibo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.itemformkuprit {
+  width: 100%;
+  text-align: left;
+}
+
+.itemformkuprit label {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.itemformkuprit input {
+  background: url(https://rawcdn.githack.com/KeliboStore/MLBB/36b6a2e07c3a0989fc7131d5cf41af60a1741631/claim-spin/trueid-kelibo.png) no-repeat center;
+  background-size: 100% 100%;
+  font-size: 20px;
+  color: #fff;
+  line-height: 35px;
+  padding: 0px 10px;
+  width: 100%;
+}
+
+.itemformkelibomoba label {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.itemformkelibomoba input {
+  background: url(https://rawcdn.githack.com/KeliboStore/MLBB/36b6a2e07c3a0989fc7131d5cf41af60a1741631/claim-spin/trueid-kelibo.png) no-repeat center;
+  background-size: 100% 100%;
+  font-size: 20px;
+  color: #fff;
+  line-height: 35px;
+  padding: 0px 10px;
+  width: 100%;
+}
+
+.itemformkelibomoba select {
+  background: url(https://rawcdn.githack.com/KeliboStore/MLBB/36b6a2e07c3a0989fc7131d5cf41af60a1741631/claim-spin/trueid-kelibo.png) no-repeat center;
+  background-size: 100% 100%;
+  font-size: 20px;
+  color: #fff;
+  padding: 8px 10px;
+  width: 100%;
+}
+
+.itemformkelibomoba button {
+  background: url(https://rawcdn.githack.com/KeliboStore/MLBB/36b6a2e07c3a0989fc7131d5cf41af60a1741631/claim-spin/btn-kelibo.png) no-repeat center;
+  background-size: 100% 100%;
+  border: none;
+  text-align: center;
+  line-height: 35px;
+  color: #0d0014;
+  outline: none;
+  font-size: 18px;
+  font-weight: 600;
+  width: 42%;
+  padding: 0px 30px;
+  filter: drop-shadow(2px 4px 6px black);
+}
+
+.itemformkuprit select {
+  background: url(https://rawcdn.githack.com/KeliboStore/MLBB/36b6a2e07c3a0989fc7131d5cf41af60a1741631/claim-spin/trueid-kelibo.png) no-repeat center;
+  background-size: 100% 100%;
+  font-size: 20px;
+  color: #fff;
+  padding: 8px 10px;
+  width: 100%;
+  margin-right: 10px;
+}
+
+.triple {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.subverifkelibo {
+  padding: 0px 10px;
+}
+
+.ucapansubverifkelibo {
+  background: url(https://rawcdn.githack.com/KeliboStore/MLBB/36b6a2e07c3a0989fc7131d5cf41af60a1741631/claim-spin/trueid-kelibo.png) no-repeat center;
+  background-size: 100% 100%;
+  text-align: center;
+}
+
+.ucapansubverifkelibo p {
+  color: #c7c7f9;
+  margin-block: 0px;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.boxcompletekelibomoba {
+  text-align: center;
+  padding: 4em 0px 5em;
+}
+
+.boxcompletekelibomoba p {
+  padding: 0px 0px 3em;
+  font-size: 18px;
+}
+
+.boxcompletekelibomoba button {
+  background: url(https://rawcdn.githack.com/KeliboStore/MLBB/36b6a2e07c3a0989fc7131d5cf41af60a1741631/claim-spin/btn-kelibo.png) no-repeat center;
+  background-size: 100% 100%;
+  border: none;
+  text-align: center;
+  color: #0d0014;
+  outline: none;
+  font-size: 18px;
+  width: 40%;
+  line-height: 40px;
+  filter: drop-shadow(2px 4px 6px black);
+}
+
+@media only screen and (max-width: 361px) {
+  .sliderkelibobanner {
+    width: 100%;
+    height: 160px;
+  }
+
+  .dot {
+    height: 4px;
+  }
+
+  .boxitemkelibomoba {
+    height: 310px;
+  }
+
+  .itemkelibomoba {
+    width: 75px;
+    height: 157px;
+  }
+
+  .buttonspinkelibomoba {
+    padding-top: 11px;
+  }
+
+  .ucapanspinkeliboreward p {
+    font-size: 21px;
+    text-shadow: 1px 1px 1px #a53dee;
+  }
+
+  .boxgambarkelibo img {
+    width: 70px;
+  }
+
+  .boxgambarkelibo span {
+    font-size: 14px;
+  }
+
+  .ucapansubverifkelibo p {
+    font-size: 18px;
+  }
+
+  .itemformkelibomoba input {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .itemformkuprit select {
+    font-size: 18px;
+    padding: 6px 10px;
+  }
+
+  .itemformkelibomoba select {
+    font-size: 18px;
+    padding: 6px 10px;
+  }
+
+  .itemformkelibomoba button {
+    line-height: 32px;
+    font-size: 16px;
+    width: 39%;
+  }
+
+  .boxcompletekelibomoba p {
+    font-size: 16px;
+  }
+
+  .boxcompletekelibomoba button {
+    font-size: 16px;
+    width: 34%;
+    line-height: 32px;
+  }
+}
